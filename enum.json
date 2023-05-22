@@ -1,0 +1,246 @@
+{
+    "admissionObject": {
+        "HIGHSCHOOL": 1,
+        "INTERMEDIATE": 2,
+        "COLLEGE": 3,
+        "UNIVERSITY": 4
+    },
+    "approvalStatus": {
+        "REJECT": 1,
+        "ACCEPT": 2,
+        "CLOSE": 4,
+        "SEND": 8
+    },
+    "cofferUnit": {
+        "VND": 1
+    },
+    "deegree": {
+        "HIGHSCHOOL": 1,
+        "INTERMEDIATE": 2,
+        "COLLEGE": 3,
+        "UNIVERSITY": 4
+    },
+    "fileDiv": {
+        "CONTENT_ATTACHMENT": 1,
+        "GRADE_IMPORT": 2
+    },
+    "gradeDiv": {
+        "PROCESS_AVERAGE_GRADE": 1,
+        "EXAM_GRADE": 2,
+        "DIEM_LY_THUYET": 3,
+        "DIEM_THUC_HANH": 4,
+        "SUMMARY_GRADE": 5
+    },
+    "gradeSettingDiv": {
+        "THREE": 3,
+        "FIVE": 5
+    },
+    "identificationDiv": {
+        "AVAILABLE": 1,
+        "UNAVAILABLE": 2
+    },
+    "objectClassification": {
+        "TOGETHER": "C",
+        "SAME": "G",
+        "OTHER": "K"
+    },
+    "permissionAction": {
+        "READ": 0,
+        "CREATE": 1,
+        "EDIT": 2,
+        "DELETE": 4
+    },
+    "perPage": {
+        "TINY": 5,
+        "SMALL": 10,
+        "MEDIUM": 25,
+        "LARGE": 50,
+        "BIG": 100
+    },
+    "petitionContent": {
+        "STUDENT_STATUS": "student_status",
+        "CLASSROOM": "classroom"
+    },
+    "petitionContentType": {
+        "RESERVE": 1,
+        "LEAVE_SCHOOL": 2,
+        "PAUSE_STUDYING": 3,
+        "CONTINUE_TO_STUDY_CHANGE_MAJORS": 4,
+        "CHANGE_AREA": 5
+    },
+    "petitionFlowStatus": {
+        "REJECT": 1,
+        "ACCEPT": 2,
+        "SEND": 3,
+        "THIRD_PARTY_REJECT": 4,
+        "THIRD_PARTY_ACCEPT": 5
+    },
+    "petitionStatus": {
+        "LEARNING_MANAGEMENT_SEND": 0,
+        "ACADEMIC_AFFAIR_REJECT": 1,
+        "ACADEMIC_AFFAIR_ACCEPT": 2,
+        "ACADEMIC_AFFAIR_SEND": 3,
+        "SCHOOL_REJECT": 4,
+        "SCHOOL_ACCEPT": 5
+    },
+    "profileCurriculumVitae": {
+        "JOB": "job",
+        "WARD": "ward",
+        "VILLAGE": "village",
+        "DISTRICT": "district",
+        "CITY": "city",
+        "MAJORED_IN": "majored_in",
+        "CERTIFICATE": "certificate",
+        "DEGREE_PLACE": "degree_place",
+        "PLACE_OF_ISSUE": "place_of_issue",
+        "WORKING_AGENCY": "working_agency",
+        "GRADUATION_YEAR": "graduation_year",
+        "HIGH_SCHOOL_NAME": "high_school_name",
+        "HIGH_SCHOOL_DISTRICT": "high_school_district",
+        "HIGH_SCHOOL_CITY": "high_school_city",
+        "DEPUTY_1": "deputy_1",
+        "DEPUTY_RELATION_1": "deputy_relation_1",
+        "DEPUTY_JOB_1": "deputy_job_1",
+        "DEPUTY_PHONE_1": "deputy_phone_1",
+        "DEPUTY_ADDRESS_1": "deputy_address_1",
+        "DEPUTY_2": "deputy_2",
+        "DEPUTY_RELATION_2": "deputy_relation_2",
+        "DEPUTY_JOB_2": "deputy_job_2",
+        "DEPUTY_PHONE_2": "deputy_phone_2",
+        "DEPUTY_ADDRESS_2": "deputy_address_2"
+    },
+    "profileStatus": {
+        "F30_GV": 1,
+        "F30_DU_HS_SCAN": 2,
+        "F30_DU_HS_SCAN_BAN_GIAO_TVU": 3,
+        "DU_HS_CUNG_LUU_GV": 4,
+        "DU_HS_CUNG_DA_BAN_GIAO_TVU": 5,
+        "QDNH_HS_SCAN": 6,
+        "QDNH_HS_CUNG": 7,
+        "DU_HS_CUNG_DA_BAN_GIAO_TVU_LOI_CHO_BOSUNG": 8,
+        "NGHI_HOC": 9,
+        "HS_CUNG_NOP_BEN_CTEC": 10
+    },
+    "proposal": {
+        "IMPORT": 1
+    },
+    "receivablePurpose": {
+        "ADMISSION_FEE": 0,
+        "TUITION_FEE": 1,
+        "FEE_FOR_LEARN_AGAIN": 2,
+        "RETEST_FEE": 3,
+        "FEE_FOR_SKIP_SUBJECT": 4,
+        "GRADUATE_FEE": 5,
+        "WITHDRAWAL_FEE": 6,
+        "STUDENT_CARD_FEE": 7
+    },
+    "referenceType": {
+        "STAFF": 1,
+        "PETITION": 2
+    },
+    "requestApplyDiv": {
+        "EDIT_STUDENT": 1
+    },
+    "requestApplyTableDiv": [],
+    "role": {
+        "ADMIN": "supper admin"
+    },
+    "roleAuthority": {
+        "SUPPER_ADMIN": 128,
+        "ADMISSION_ADVISER": 1,
+        "ACADEMIC_AFFAIRS_OFFICER": 2,
+        "LEARNING_MANAGEMENT": 4,
+        "ACCOUNTANT": 8,
+        "PROGRAM_COORDINATOR": 32,
+        "PM": 16
+    },
+    "schoolTheme": {
+        "ON_SCHOOL": ""
+    },
+    "staffTeam": {
+        "ADMISSION_ADVISER": 1,
+        "ACADEMIC_AFFAIRS_OFFICER": 2,
+        "LEARNING_MANAGEMENT": 3
+    },
+    "storageDiv": {
+        "LOCAL": 1
+    },
+    "studentProfileDocument": {
+        "REGISTRATION_FORM": "registration_form",
+        "APPLICATION_FORM": "application_form",
+        "GRADUATE_DEGREE": "graduate_degree",
+        "TRANSCRIPT": "transcript",
+        "CARD_IMAGE": "card_image",
+        "PROFILE_RECEIVE_AREA": "profile_receive_area",
+        "UNIVERSITY": "university",
+        "GOP_BAN_DAU": "gop_ban_dau",
+        "GOP_CHUYEN_DEN": "gop_chuyen_den",
+        "GOP_DANG_KI": "gop_dang_ki",
+        "GOP_KHAI_GIANG": "gop_khai_giang",
+        "TUAN": "tuan",
+        "RECEIVE_DATE": "receive_date",
+        "DELIVERY_DATE_TVU": "delivery_date_tvu",
+        "DELIVERY_DATE_TVU_SCAN": "delivery_date_tvu_scan",
+        "REPORT_ERROR": "report_error",
+        "DECISION_NO": "decision_no",
+        "DECISION_DATE": "decision_date",
+        "DECISION_RETURN_DATE": "decision_return_date",
+        "STUDENT_CARD_RECEIVED_DATE": "student_card_received_date",
+        "DELIVERY_STUDENT_PROFILE_DATE": "delivery_student_profile_date",
+        "SUBJECT": "subject",
+        "SUBJECT_CODE": "subject_code",
+        "GRADE_1": "grade_1",
+        "GRADE_2": "grade_2",
+        "GRADE_3": "grade_3",
+        "GRADE_SUBJECT": "grade_subject",
+        "GRADE_AVG_SUBJECT": "grade_avg_subject",
+        "RANK_SUBJECT": "rank_subject",
+        "PROFILE_STATUS_TKTS": "profile_status_tkts"
+    },
+    "studentReceivablePurpose": {
+        "ADMISSION_FEE": 0,
+        "TUITION_FEE": 1,
+        "FEE_FOR_LEARN_AGAIN": 2,
+        "RETEST_FEE": 3,
+        "FEE_FOR_SKIP_SUBJECT": 4,
+        "GRADUATE_FEE": 5,
+        "WITHDRAWAL_FEE": 6,
+        "STUDENT_CARD_FEE": 7
+    },
+    "studentRevisionHistoryType": {
+        "CLASSROOM": 1,
+        "STUDENT_STATUS": 2,
+        "PROFILE_STATUS": 3,
+        "DECISION_NO": 4,
+        "DECISION_DATE": 5,
+        "REQUISITION_DECISION_NO": 6,
+        "REQUISITION_DECISION_DATE": 7
+    },
+    "studentStatus": {
+        "XOA_QUYET_DINH_SINH_VIEN": 0,
+        "NGHI_HOC": 3,
+        "BAO_LUU": 4,
+        "TAM_NGUNG_HOC_DO_CHUA_HS_HP": 5,
+        "DANG_HOC_CHUA_HS": 6,
+        "DANG_HOC_CHO_QDNH": 7,
+        "DANG_HOC_DA_CO_QDNH": 8,
+        "DA_TOT_NGHIEP": 9
+    },
+    "studentTypeWeek": {
+        "A1": 0,
+        "A2": 3,
+        "B1": 4,
+        "B2": 5,
+        "B2_HS": 6,
+        "B2_HT": 7,
+        "C": 8
+    },
+    "tuitionFee": {
+        "FREE": "HOC_PHI",
+        "ADMISSION_FEE": "LE_PHI_XET_TUYEN",
+        "FEE_FOR_LEARN_AGAIN": "PHI_HOC_LAI",
+        "RETEST_FEE": "PHI_THI_LAI",
+        "FEE_FOR_SKIP_SUBJECT": "PHI_MIEN_MON",
+        "GRADUATE_FEE": "LE_PHI_TOT_NGHIEP"
+    }
+}

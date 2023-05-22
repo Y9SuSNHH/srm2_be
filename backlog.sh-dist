@@ -1,0 +1,25 @@
+#!/bin/bash
+#echo "[start listening backlog at `date +%Y-%m-%d\ %T`] " >> storage/logs/backlog.log
+cd /var/www/html
+value=`cat storage/app/backlog.json`
+condition=`echo $value | xargs`
+if [[ $condition != "[]" ]]; then
+  echo "[]" > storage/app/backlog.json
+  echo "[`date +%Y-%m-%d\ %T`] `php artisan backlog:work \"$value\"` " >> storage/logs/backlog.log
+  chown www-data:www-data storage/app/backlog.json &
+  chown www-data:www-data storage/logs/*.log &
+fi
+
+inotifywait -e close_write storage/app/backlog.json | while read changed
+do
+#  if [[ $changed =~ .*CLOSE_WRITE.* ]]; then
+    value=`cat storage/app/backlog.json`
+    condition=`echo $value | xargs`
+    if [[ $condition != "[]" ]]; then
+      echo "[]" > storage/app/backlog.json
+      echo "[`date +%Y-%m-%d\ %T`] `php artisan backlog:work \"$value\"` " >> storage/logs/backlog.log
+    fi
+    chown www-data:www-data storage/app/backlog.json &
+    chown www-data:www-data storage/logs/*.log &
+#  fi
+done

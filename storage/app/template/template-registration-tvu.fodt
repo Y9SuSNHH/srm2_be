@@ -1,0 +1,218 @@
+<!-- header -->
+   <text:p text:style-name="P24">Ngành: …</text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P24">Đối tượng: từ (THPT/TC/CĐ/ĐH) ... học lên Đại học<text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P10"><text:s text:c="4"/></text:p>
+   <text:p text:style-name="P12">1. BẢN THÂN<text:span text:style-name="T13"/></text:p>
+   <table:table table:name="Table2" table:style-name="Table2">
+    <table:table-column table:style-name="Table2.A"/>
+    <table:table-column table:style-name="Table2.B"/>
+    <table:table-column table:style-name="Table2.C"/>
+    <table:table-column table:style-name="Table2.D"/>
+    <table:table-column table:style-name="Table2.E"/>
+    <table:table-column table:style-name="Table2.F"/>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="5" office:value-type="string">
+      <text:p text:style-name="P26"><text:span text:style-name="T13">Họ và tên khai sinh:</text:span> <text:span text:style-name="T13">…</text:span></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table2.A1" office:value-type="string">
+      <text:p text:style-name="P26"><text:span text:style-name="T13">Giới tính:</text:span> …</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P11">Ngày sinh: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P11">Nơi sinh: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" office:value-type="string">
+      <text:p text:style-name="P11">Dân tộc: …</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P11">Tôn giáo: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="P11">Quốc tịch: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P34">Số CMND/CCCD: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="3" office:value-type="string">
+      <text:p text:style-name="P11">Ngày cấp: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Nơi cấp: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Hộ khẩu thường trú: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Bằng tốt nghiệp sử dụng đăng ký xét tuyển: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Ngành tốt nghiệp TC/CĐ/ĐH: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Nơi học lớp 12 bậc THPT: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Công việc hiện nay: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P11">Đơn vị công tác: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="P11">Điện thoại: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="4" office:value-type="string">
+      <text:p text:style-name="P11">E-mail: …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table2.1">
+     <table:table-cell table:style-name="Table2.A1" table:number-columns-spanned="6" office:value-type="string">
+      <text:p text:style-name="P26"><text:span text:style-name="T13">Địa chỉ liên hệ (</text:span><text:span text:style-name="T15">Học viên ghi rõ để nhận thông báo</text:span><text:span text:style-name="T13">): …</text:span></text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+     <table:covered-table-cell/>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P13">2. NGƯỜI THÂN (ĐẠI DIỆN) CÓ THỂ LIÊN LẠC KHI CẦN<text:span text:style-name="T19"/></text:p>
+   <text:p text:style-name="P18"/>
+   <table:table table:name="Table3" table:style-name="Table3">
+    <table:table-column table:style-name="Table3.A"/>
+    <table:table-column table:style-name="Table3.B"/>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P17">Họ và tên : …</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P14">Quan hệ: …</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P15">Nghề nghiệp: …</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P14">Điện thoại: …</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="P15">Địa chỉ : …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P17">Họ và tên : …</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P14">Quan hệ: …</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P15">Nghề nghiệp: …</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+      <text:p text:style-name="P14">Điện thoại: …</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Table3.1">
+     <table:table-cell table:style-name="Table3.A1" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="P15">Địa chỉ : …</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+   </table:table>
+   <!-- body -->
+     <table:table-cell table:style-name="Table4.A1" office:value-type="string">
+      <text:p text:style-name="P29">…</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P16"/>
+  </office:text>
+ </office:body>
+</office:document>

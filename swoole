@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ "$1" = "stop" ]]
+then
+  php artisan swoole:http stop
+else
+  if [[ "$1" = "start" ]]
+  then
+    php artisan swoole:http start &
+
+  else
+    php artisan swoole:http restart &
+
+  fi
+fi

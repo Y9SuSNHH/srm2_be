@@ -1,0 +1,103 @@
+<?php
+
+return [
+    'per_page'                   => [
+        'tiny'   => '5',
+        'small'  => '10',
+        'medium' => '15',
+        'large'  => '20',
+        'big'    => '100',
+    ],
+    'permission_action'          => [
+        'read'   => 'Đọc',
+        'create' => 'Thêm',
+        'edit'   => 'Sửa',
+        'delete' => 'Xóa',
+    ],
+    'student_status'             => [
+        'xoa_quyet_dinh_sinh_vien'    => '00_Xóa quyết định sinh viên',
+        'nghi_hoc'                    => '03_Nghỉ học',
+        'bao_luu'                     => '04_Bảo lưu',
+        'tam_ngung_hoc_do_chua_hs_hp' => '05_Tạm ngưng học do chưa hồ sơ, học phí',
+        'dang_hoc_chua_hs'            => '06_Đang học, chưa có hồ sơ',
+        'dang_hoc_cho_qdnh'           => '07_Đang học, chưa có QĐNH',
+        'dang_hoc_da_co_qdnh'         => '08_Đang học, đã có QĐNH',
+        'da_tot_nghiep'               => '09_Đã tốt nghiệp',
+    ],
+    'grade_div'                  => [
+        'process_average_grade' => 'Điểm QT',
+        'exam_grade'            => 'Điểm KT',
+        'diem_ly_thuyet'        => 'Điểm LT',
+        'diem_thuc_hanh'        => 'Điểm TH',
+        'summary_grade'         => 'Điểm tổng kết',
+    ],
+    'student_receivable_purpose' => [
+        'admission_fee'        => 'Lệ phí xét tuyển',
+        'tuition_fee'          => 'Học phí',
+        'fee_for_skip_subject' => 'Phí miễn môn',
+        'fee_for_learn_again'  => 'Phí học lại',
+        'retest_fee'           => 'Phí thi lại',
+        'withdrawal_fee'       => 'Rút học phí',
+        'graduate_fee'         => 'Lệ phí tốt nghiệp',
+        'student_card_fee'     => 'Phí làm thẻ sinh viên',
+    ],
+    'petition_content_type'      => [
+        'reserve'                         => 'Bảo lưu',
+        'leave_school'                    => 'Nghỉ học',
+        'pause_studying'                  => 'Tạm ngừng học',
+        'continue_to_study_change_majors' => 'Tiếp tục theo học/chuyển ngành',
+        'change_area'                     => 'Chuyển trạm học',
+    ],
+    'role_authority'             => [
+        "supper_admin"             => 'Admin',
+        "admission_adviser"        => '',
+        "academic_affairs_officer" => 'Giáo vụ',
+        "learning_management"      => 'QLHT',
+        "accountant"               => '',
+    ],
+    'petition_flow_status'       => [
+        "reject"             => 'từ chối',
+        "accept"             => 'nhận đơn',
+        "send"               => 'gửi đơn',
+        "third_party_reject" => 'Trường hủy đơn',
+        "third_party_accept" => 'Trường trả quyết định',
+    ],
+    'petition_status'            => [
+        'learning_management_send' => 'QLHT gửi đơn',
+        'academic_affair_reject'   => 'GV từ chối',
+        'academic_affair_accept'   => 'GV nhận đơn',
+        'academic_affair_send'     => 'GV gửi đơn',
+        'school_accept'            => 'Trường trả quyết định',
+        'school_reject'            => 'Trường hủy đơn',
+    ],
+    'work_div'                   => [
+        'approval_edit_student' => 'Phê duyệt sửa thông tin sinh viên'
+    ],
+    'approval_status'            => [
+        'reject'     => 'Từ chối',
+        'accept'     => 'Chấp nhận',
+        'close'      => 'Đóng',
+        'sending'    => 'Đang gửi',
+        'in_process' => 'Trong tiến trình',
+        'pending'    => 'Đang chờ xử lý',
+        'done'       => 'Xong',
+    ],
+    'handover_status'            => [
+        'send_profile_to_school'     => 'Đang chuyển hồ sơ sang trường',
+        'school_take_profile'        => 'Trường đã tiếp nhận hồ sơ',
+        'school_sign_profile'        => 'Trường ra quyết định - trình ký',
+        'school_return_sign_profile' => 'Trường đã trả bản ký',
+    ],
+    'profile_status'                 => [
+        'f30_gv'                     => 'F30_GV',
+        'f30_du_hs_can'              => 'F30_DU_HS_SCAN',
+        'f30_du_hs_scan_ban_giao_tvu'=> 'F30_DU_HS_SCAN_BAN_GIAO_TVU',
+        'du_hs_cung_luu_gv'          => 'Đủ_HS cứng lưu GV',
+        'qdnh_hs_cung'               => 'QĐNH_HS cứng',
+        'du_hs_cung_da_ban_giao_tvu' => 'Đủ_HS cứng đã BG TVU',
+        'qdnh_hs_scan'               => 'QDNH_HS_SCAN',
+        'du_hs_cung_da_ban_giao_tvu_loi_cho_bosung' => 'DU_HS_CUNG_DA_BAN_GIAO_TVU_LOI_CHO_BOSUNG',
+        'nghi_hoc'            => 'NGHI_HOC',
+        'hs_cung_nop_ben_cte' =>'HS_CUNG_NOP_BEN_CTEC'
+    ],
+];

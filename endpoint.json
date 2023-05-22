@@ -1,0 +1,330 @@
+{
+    "api": {
+        "school": {
+            "index": "api\/school",
+            "show": "api\/school\/{id}",
+            "create": "api\/school\/create",
+            "update": "api\/school\/{id}\/update",
+            "delete": "api\/school\/{id}\/delete"
+        },
+        "register": "api\/register",
+        "administrative": "api\/administrative-unit",
+        "roleLogin": {
+            "index": "api\/role-login"
+        },
+        "login": "api\/login",
+        "authInfo": "api\/auth-info",
+        "authChangePassword": "api\/auth-change-password",
+        "logout": "api\/logout",
+        "user": {
+            "index": "api\/user",
+            "create": "api\/user\/create",
+            "update": "api\/user\/{id}\/update",
+            "delete": "api\/user\/{id}\/delete"
+        },
+        "role": {
+            "index": "api\/role",
+            "show": "api\/role\/{id}",
+            "create": "api\/role\/create",
+            "update": "api\/role\/{id}\/update",
+            "delete": "api\/role\/{id}\/delete",
+            "assign": "api\/role\/{id}\/assign",
+            "assignPermission": "api\/role\/{id}\/assign-permission"
+        },
+        "permission": {
+            "index": "api\/permission",
+            "createForm": "api\/permission\/create",
+            "show": "api\/permission\/{id}",
+            "create": "api\/permission\/create",
+            "update": "api\/permission\/{id}\/update",
+            "delete": "api\/permission\/{id}\/delete",
+            "assignRole": "api\/permission\/{id}\/assign-role",
+            "assignUser": "api\/permission\/{id}\/assign-user"
+        },
+        "staff": "api\/staff\/options",
+        "backlogTasks": {
+            "index": "api\/backlog-tasks"
+        },
+        "storageFiles": {
+            "download": "api\/storage-files\/{id}\/download",
+            "downloadInit": "api\/storage-files\/download\/init"
+        }
+    },
+    "academicAffairsOfficer": {
+        "class": {
+            "index": "academic-affairs-officer\/class",
+            "options": "academic-affairs-officer\/class\/options",
+            "majorObject": "academic-affairs-officer\/class\/major-object",
+            "show": "academic-affairs-officer\/class\/{id}",
+            "create": "academic-affairs-officer\/class\/create",
+            "update": "academic-affairs-officer\/class\/{id}\/update",
+            "delete": "academic-affairs-officer\/class\/{id}\/delete",
+            "createBatch": "academic-affairs-officer\/class\/create-batch",
+            "updateLearningManagement": "academic-affairs-officer\/class\/update-learning-management"
+        },
+        "grade": {
+            "index": "academic-affairs-officer\/grade",
+            "classroom": "academic-affairs-officer\/grade\/classroom",
+            "importInit": "academic-affairs-officer\/grade\/import\/init",
+            "show": "academic-affairs-officer\/grade\/{id}",
+            "importValidate": "academic-affairs-officer\/grade\/import\/validate",
+            "importStore": "academic-affairs-officer\/grade\/import\/store",
+            "update": "academic-affairs-officer\/grade\/{id}\/update",
+            "deleteInit": "academic-affairs-officer\/grade\/{storage_file_id}\/delete-init",
+            "delete": "academic-affairs-officer\/grade\/{storage_file_id}\/delete"
+        },
+        "handovers": {
+            "studentsProfiles": {
+                "index": "academic-affairs-officer\/handovers\/{id}\/students",
+                "update": "academic-affairs-officer\/handovers\/{id}\/students",
+                "destroy": "academic-affairs-officer\/handovers\/students\/{student_profile_id}"
+            },
+            "index": "academic-affairs-officer\/handovers",
+            "export": "academic-affairs-officer\/handovers\/{id}\/export\/download",
+            "exportInit": "academic-affairs-officer\/handovers\/{id}\/export\/init",
+            "store": "academic-affairs-officer\/handovers",
+            "destroy": "academic-affairs-officer\/handovers\/{id}\/delete",
+            "update": "academic-affairs-officer\/handovers\/{id}",
+            "updateLock": "PATCH\/academic-affairs-officer\/handovers\/{id}\/lock"
+        }
+    },
+    "trainingProgramme": {
+        "area": {
+            "index": "training-programme\/area",
+            "options": "training-programme\/area\/options",
+            "show": "training-programme\/area\/{id}",
+            "create": "training-programme\/area\/create",
+            "update": "training-programme\/area\/{id}\/update",
+            "delete": "training-programme\/area\/{id}\/delete"
+        },
+        "enrollmentWave": {
+            "index": "training-programme\/enrollment_wave",
+            "options": "training-programme\/enrollment_wave\/options",
+            "show": "training-programme\/enrollment_wave\/{id}",
+            "create": "training-programme\/enrollment_wave\/create",
+            "update": "training-programme\/enrollment_wave\/{id}\/update",
+            "delete": "training-programme\/enrollment_wave\/{id}\/delete"
+        },
+        "major": {
+            "index": "training-programme\/major",
+            "options": "training-programme\/major\/options",
+            "show": "training-programme\/major\/{id}",
+            "objectMap": "training-programme\/major\/object-map\/{id}",
+            "create": "training-programme\/major\/create",
+            "update": "training-programme\/major\/{id}\/update",
+            "delete": "training-programme\/major\/{id}\/delete"
+        },
+        "enrollmentObject": {
+            "index": "training-programme\/enrollment-object",
+            "options": "training-programme\/enrollment-object\/options",
+            "show": "training-programme\/enrollment-object\/{id}",
+            "create": "training-programme\/enrollment-object\/create",
+            "update": "training-programme\/enrollment-object\/{id}\/update",
+            "delete": "training-programme\/enrollment-object\/{id}\/delete",
+            "objectMap": "training-programme\/enrollment-object\/object-map"
+        },
+        "learningModule": {
+            "index": "training-programme\/learning-module",
+            "options": "training-programme\/learning_module\/options",
+            "show": "training-programme\/learning_module\/{id}",
+            "create": "training-programme\/learning_module\/create",
+            "update": "training-programme\/learning_module\/{id}\/update",
+            "delete": "training-programme\/learning_module\/{id}\/delete"
+        },
+        "curriculum": {
+            "index": "training-programme\/curriculum",
+            "create": "training-programme\/curriculum\/create",
+            "update": "training-programme\/curriculum\/update\/{id}",
+            "delete": "training-programme\/curriculum\/{id}\/delete"
+        },
+        "studySession": {
+            "index": "training-programme\/study_session",
+            "downloadInit": "training-programme\/study_session\/download\/init",
+            "downloadTemplate": "training-programme\/study_session\/download\/template",
+            "uploadInit": "training-programme\/study_session\/upload\/init",
+            "detail": "training-programme\/study_session\/{id}",
+            "update": "training-programme\/study_session\/{id}\/update",
+            "uploadValidate": "training-programme\/study_session\/upload\/validate",
+            "uploadStore": "training-programme\/study_session\/upload\/store"
+        },
+        "studyPlan": {
+            "index": "training-programme\/study_plan",
+            "options": "training-programme\/study_plan\/options",
+            "downloadInit": "training-programme\/study_plan\/download\/init",
+            "downloadTemplate": "training-programme\/study_plan\/download\/template",
+            "params": "training-programme\/study_plan\/params",
+            "show": "training-programme\/study_plan\/{id}",
+            "create": "training-programme\/study_plan\/create",
+            "update": "training-programme\/study_plan\/{id}\/update",
+            "delete": "training-programme\/study_plan\/{id}\/delete"
+        },
+        "period": {
+            "index": "training-programme\/period",
+            "options": "training-programme\/period\/options",
+            "delete": "training-programme\/period\/{id}\/delete"
+        },
+        "subject": {
+            "index": "training-programme\/subject",
+            "options": "training-programme\/subject\/options",
+            "show": "training-programme\/subject\/{id}",
+            "create": "training-programme\/subject\/create",
+            "update": "training-programme\/subject\/{id}\/update",
+            "delete": "training-programme\/subject\/{id}\/delete"
+        },
+        "majorObjectMap": {
+            "index": "training-programme\/major_object_map",
+            "options": "training-programme\/major_object_map\/options",
+            "show": "training-programme\/major_object_map\/{id}",
+            "create": "training-programme\/major_object_map\/create"
+        }
+    },
+    "student": {
+        "petitions": {
+            "ignoreLearningModule": {
+                "templateDownload": "student\/petitions\/ignore-learning-module\/import\/template\/download",
+                "export": "student\/petitions\/ignore-learning-module\/export\/download",
+                "importInit": "student\/petitions\/ignore-learning-module\/import\/init",
+                "index": "student\/petitions\/ignore-learning-module",
+                "templateInit": "student\/petitions\/ignore-learning-module\/import\/template\/init",
+                "exportInit": "student\/petitions\/ignore-learning-module\/export\/init",
+                "importValidator": "student\/petitions\/ignore-learning-module\/import\/validator",
+                "import": "student\/petitions\/ignore-learning-module\/import",
+                "destroy": "student\/petitions\/ignore-learning-module\/{id}",
+                "store": "student\/{id}\/petitions\/ignoreLearningModule"
+            },
+            "export": "student\/petitions\/export\/download",
+            "index": "student\/petitions",
+            "show": "student\/petitions\/{id}",
+            "exportInit": "student\/petitions\/export\/init",
+            "update": "student\/petitions\/{id}",
+            "destroy": "student\/petitions\/{id}",
+            "store": "student\/{id}\/petitions"
+        },
+        "student": {
+            "downloadTemplate": "student\/example\/download",
+            "importInit": "student\/importInit",
+            "downloadInit": "student\/download-init",
+            "export": "student\/export\/download",
+            "exportG110": "student\/export-g110\/download",
+            "index": "student",
+            "show": "student\/{id}",
+            "showGrades": "student\/{id}\/grades",
+            "showTuition": "student\/{id}\/tuition",
+            "exportInit": "student\/export\/init",
+            "updateStudentProfile": "student\/{id}\/student-profile",
+            "updateProfile": "student\/{id}\/profile",
+            "updateLearningInfo": "student\/{id}\/learning-module",
+            "importProfile": "student\/import",
+            "storeImportProfile": "student\/storeImport"
+        },
+        "status": "student\/{student_id}\/status",
+        "workflowStore": "student\/{student_id}\/workflow-store",
+        "learningProcess": {
+            "index": "student\/learning-process\/chamsocsinhvien",
+            "test": "student\/learning-process\/test",
+            "create": "student\/learning-process\/create"
+        },
+        "careHistory": {
+            "index": "student\/care-history\/care-history",
+            "create": "student\/care-history\/create",
+            "update": "student\/care-history\/{id}\/update"
+        }
+    },
+    "reports": {
+        "g120": {
+            "index": "reports\/g120",
+            "downloadInit": "reports\/g120\/download-init",
+            "export": "reports\/g120\/export",
+            "update": "reports\/g120\/update"
+        },
+        "g820": {
+            "index": "reports\/g820",
+            "downloadInit": "reports\/g820\/download-init",
+            "export": "reports\/g820\/export"
+        },
+        "p825": {
+            "index": "reports\/p825",
+            "downloadInit": "reports\/p825\/download-init",
+            "export": "reports\/p825\/export"
+        },
+        "p845": {
+            "index": "reports\/p845",
+            "downloadInit": "reports\/p845\/download-init",
+            "export": "reports\/p845\/export"
+        },
+        "f111": {
+            "downloadInit": "reports\/f111\/download-init",
+            "export": "reports\/f111\/export",
+            "uploadInit": "reports\/f111\/upload\/init",
+            "uploadValidate": "reports\/f111\/upload\/validate",
+            "uploadStore": "reports\/f111\/upload\/store"
+        }
+    },
+    "receivable": {
+        "receivable": {
+            "index": "receivable",
+            "periods": "receivable\/periods",
+            "classrooms": "receivable\/classrooms",
+            "staffs": "receivable\/staffs",
+            "majors": "receivable\/majors",
+            "show": "receivable\/{id}"
+        }
+    },
+    "download": {
+        "periodTemplate": "download\/period-template"
+    },
+    "contact": {
+        "contact": {
+            "index": "contact",
+            "create": "contact\/create",
+            "add": "contact\/add",
+            "update": "contact\/{id}\/update",
+            "delete": "contact\/{id}\/delete",
+            "link": "contact\/{id}\/link"
+        }
+    },
+    "registration": {
+        "registration": {
+            "index": "registration",
+            "update": "registration\/{id}\/update",
+            "delete": "registration\/{id}\/delete",
+            "info": "registration\/{id}\/info",
+            "export": "registration\/{id}\/export",
+            "downloadInit": "registration\/download-init"
+        }
+    },
+    "workflow": {
+        "request": {
+            "index": "workflow\/request",
+            "show": "workflow\/request\/{id}",
+            "approval": "workflow\/request\/{id}\/approval"
+        },
+        "reject": {
+            "index": "workflow\/reject"
+        },
+        "bulkUpdate": "workflow\/bulk-update",
+        "approved": "workflow\/approved"
+    },
+    "finance": {
+        "finance": {
+            "class": "finance\/class",
+            "filter": "finance\/filter",
+            "student": "finance\/student",
+            "update": "finance\/{id}\/update",
+            "delete": "finance\/{id}\/delete",
+            "tuition": "finance\/tuition",
+            "filterStudent": "finance\/filterStudent",
+            "studentClass": "finance\/studentClass",
+            "semesterClass": "finance\/semesterClass",
+            "receiveSemester": "finance\/receiveSemester",
+            "exportInit": "finance\/export\/init",
+            "export": "finance\/export\/download",
+            "exportTransaction": "finance\/export\/transaction\/download",
+            "exportTuition": "finance\/export\/tuition\/download",
+            "exportTuitionClass": "finance\/export\/tuitionClass\/download"
+        },
+        "transaction": {
+            "create": "finance\/transaction\/create"
+        }
+    }
+}

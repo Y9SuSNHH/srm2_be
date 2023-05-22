@@ -1,0 +1,15 @@
+# Files
+.DS_Store
+phpunit.xml
+.scannerwork
+.env
+backlog.json
+_ide_*.php
+gi_*
+deploy.sh
+storage/app/*.1.sh
+# Folders
+vendor
+node_modules
+.idea
+storage/app/backlog.json
